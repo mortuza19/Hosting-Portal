@@ -12,7 +12,7 @@ body {
 /* main - feature css */
 #product-overview {
     background: linear-gradient(to top, rgba(0,0,0,0.6) 10%,transparent), 
-    url("./images/freedom.jpg") center/cover no-repeat border-box;
+    url("./images/freedom.jpg") left 10%/cover no-repeat border-box;
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: left 10% top 20%; */
@@ -51,25 +51,43 @@ body {
 }
 
 .plans__list{
-    width: 80%;
-    margin: auto;
     text-align: center;
 }
 
 .plan{
     background-color: #d5ffdc;
     padding: 1rem;
-    margin: 0.5rem;
+    margin: auto;
+    margin-bottom: 8px;
     text-align: center;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
 }
 
 .plan--hightlighted{
     background-color: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+}
+
+@media (min-width:48rem){
+    .plans__list{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .plan{
+        margin: 0.5rem;
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        border-radius: 0px;
+    }
+    
+    .plan--hightlighted{
+        box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+    }
 }
 
 .plan--annotation{
@@ -126,9 +144,15 @@ body {
 }
 
 .features{
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
+    display: block;
+}
+
+@media (min-width:40rem){
+    .features{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
 }
 
 .feature--image{
