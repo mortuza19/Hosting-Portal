@@ -7,6 +7,9 @@ body {
     margin: 0;
 }
 
+
+
+/* main css */
 #product-overview {
     background: linear-gradient(to top, rgba(0,0,0,0.6) 10%,transparent), 
     url("./images/freedom.jpg") center/cover no-repeat border-box;
