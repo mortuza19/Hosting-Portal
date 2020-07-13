@@ -9,7 +9,7 @@ body {
 
 
 
-/* main css */
+/* main - feature css */
 #product-overview {
     background: linear-gradient(to top, rgba(0,0,0,0.6) 10%,transparent), 
     url("./images/freedom.jpg") center/cover no-repeat border-box;
