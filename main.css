@@ -16,7 +16,7 @@ body {
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: left 10% top 20%; */
-    width: 98.71vw;
+    width: 100vw;
     height: 45vh;
     margin-top: 2.5rem;
     position: relative;
@@ -31,6 +31,7 @@ body {
     #product-overview{
         height: 60vh;
         background-position: 50% 20%;
+        width: 99vw;
     }
 }
 
