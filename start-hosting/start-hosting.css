@@ -10,12 +10,9 @@ main {
 
 .signup-form {
     padding: 1rem;
-<<<<<<< HEAD
     display: grid;
     grid-auto-rows: 2rem;
     grid-row-gap: 0.5rem;
-=======
->>>>>>> 75aa88fafb3bec419a05b4fb4ab24f26d0a431bc
 }
 
 .signup-form label {
@@ -26,10 +23,6 @@ main {
 .signup-form input,
 .signup-form select {
     display: block;
-<<<<<<< HEAD
-=======
-    margin-top: 1rem;
->>>>>>> 75aa88fafb3bec419a05b4fb4ab24f26d0a431bc
     width: 100%;
 }
 
@@ -79,16 +72,11 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-<<<<<<< HEAD
-=======
-    margin-top: 1rem;
->>>>>>> 75aa88fafb3bec419a05b4fb4ab24f26d0a431bc
 }
 
 @media (min-width: 40rem) {
     .signup-form {
         margin: auto;
-<<<<<<< HEAD
         width: 30rem;
         grid-template-columns: 10rem auto;
         grid-row-gap: 1rem;
@@ -101,8 +89,5 @@ main {
 
     .signup-form__checkbox {
         grid-column: span 2;
-=======
-        width: 25rem;
->>>>>>> 75aa88fafb3bec419a05b4fb4ab24f26d0a431bc
     }
 }
