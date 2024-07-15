@@ -1,5 +1,3 @@
-Sure, here's the updated README file without the project structure section:
-
 # Hosting Portal Project
 
 Welcome to the Hosting Portal project! This project showcases the use of advanced HTML, CSS, and a bit of JavaScript to create a fully functional hosting service website. The portal includes a signup form, customer reviews, and a section detailing our hosting plans.
